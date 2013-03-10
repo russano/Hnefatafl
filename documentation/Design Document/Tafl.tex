@@ -1,0 +1,33 @@
+\documentclass[a4paper, 10pt, titlepage]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{titlepic}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
+\begin{document}
+
+\title{Hnefatafl\\\large{The Viking Board Game}}
+\titlepic{\includegraphics[width=7cm]{title}}
+\author{Gary Munnelly}
+\date{ }
+\maketitle
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\section{Introduction}
+\section{The Game of Hnefatafl}
+\subsection{History}
+\subsection{Rules}
+\subsection{Variants}
+\section{Design Overview}
+\section{Detailed Design}
+
+\end{document}
